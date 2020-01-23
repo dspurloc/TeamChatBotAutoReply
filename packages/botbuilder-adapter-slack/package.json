@@ -1,5 +1,5 @@
 {
-  "name": "botbuilder-adapter-slack",
+  "name": "@kintaba/botbuilder-adapter-slack",
   "version": "1.0.7",
   "description": "Connect Botkit or BotBuilder to Slack",
   "main": "./lib/index.js",
@@ -24,18 +24,15 @@
     "chatbots",
     "azure"
   ],
-  "homepage": "https://github.com/howdyai/botkit/blob/master/packages/botbuilder-adapter-slack#readme",
-  "bugs": {
-    "url": "https://github.com/howdyai/botkit/issues"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/howdyai/botkit.git"
+    "url": "ssh://git@github.com/vaultio/botbuilder-adapter-slack.git",
+    "directory": "packages/botkit"
   },
   "dependencies": {
     "@slack/web-api": "^5.5.0",
-    "botbuilder": "^4.6.0",
-    "botkit": "^4.6.0",
+    "botbuilder": "^4.7.1",
+    "@kintaba/botkit": "^4.6.3",
     "debug": "^4.1.0"
   },
   "devDependencies": {

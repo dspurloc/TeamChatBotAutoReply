@@ -2,7 +2,7 @@
  * @module botbuilder-adapter-slack
  */
 
-import { Botkit, BotkitMessage, BotWorker } from 'botkit';
+import { Botkit, BotkitMessage, BotWorker } from '@kintaba/botkit';
 import { WebClient, Dialog } from '@slack/web-api';
 import * as request from 'request';
 

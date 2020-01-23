@@ -1,6 +1,6 @@
 {
-  "name": "botkit",
-  "version": "4.6.1",
+  "name": "@kintaba/botkit",
+  "version": "4.6.3",
   "description": "Building Blocks for Building Bots",
   "main": "lib/index.js",
   "typings": "./lib/index.d.ts",
@@ -22,19 +22,15 @@
     "bots",
     "chatbots"
   ],
-  "homepage": "https://github.com/howdyai/botkit/blob/master/packages/botkit#readme",
-  "bugs": {
-    "url": "https://github.com/howdyai/botkit/issues"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/howdyai/botkit.git"
+    "url": "https://github.com/vaultio/botkit.git"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "botbuilder": "^4.6.0",
-    "botbuilder-dialogs": "^4.6.0",
-    "botframework-connector": "^4.6.0",
+    "botbuilder": "^4.7.1",
+    "botbuilder-dialogs": "^4.7.1",
+    "botframework-connector": "^4.7.1",
     "debug": "^4.1.0",
     "express": "^4.16.4",
     "mustache": "^3.0.1",
